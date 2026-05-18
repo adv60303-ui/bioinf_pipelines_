@@ -1,0 +1,16 @@
+name: hw3-pipeline-cluster
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc=0.12.1
+  - trimmomatic=0.39
+  - megahit=1.2.9
+  - seqtk=1.5
+  - bwa=0.7.17
+  - samtools=1.19
+  - bcftools=1.19
+  - sra-tools=3.1.0
+  - matplotlib>=3.8
+  - python>=3.10
